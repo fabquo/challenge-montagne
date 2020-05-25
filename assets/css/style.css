@@ -166,6 +166,25 @@
 	.items.style1.medium section{
 		width: 100%;
 		border:none;
+	}
+	.items.style1.medium section:nth-child(even){
+		width: 100%;
+		border:none;
+		border-bottom: solid 0.2px rgba(128, 128, 128, 0.500);
+	}
+	.items.style1.medium section:nth-child(odd){
+		width: 100%;
+		border:none;
+		border-bottom: solid 0.2px rgba(128, 128, 128, 0.500);	
+	}
+	.items.style1.medium section:nth-last-child(1) {
+		width: 100%;
+		border:none;
+		border-bottom: solid 0.2px rgba(128, 128, 128, 0.500);
+	}
+	.items.style1.medium section:nth-last-child(2) {
+		width: 100%;
+		border:none;
 		border-bottom: solid 0.2px rgba(128, 128, 128, 0.500);
 	}
 }
